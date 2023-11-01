@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+body{
+  /* background-image: url(wepik-export-202310011119307YTm.png); */
+  position:absolute;
+  background-color: black;
+  overflow-x: hidden;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+.fade-in-text {
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+  -o-animation: fadeIn 4s;
+  -ms-animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.neonText-intro {
+  color: orange;
+  text-shadow:
+      0 0 1px orange,
+      0 0 2px orange,
+  
+      0 0 102px rgb(255, 196, 0),
+      0 0 151px rgb(255, 196, 0);
+}
+
+hr.rounded {
+  border-top: 8px solid orange;
+  border-radius: 5px;
+}
+img {
+  translate: 0 10%;
+  transition: 1000ms;
+}
+
+img:hover {
+  translate: 0 -10%;
+  transition: 1000ms;
+}
